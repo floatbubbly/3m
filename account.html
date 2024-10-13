@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" />
+    <title>HPIS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/page.css" />
+</head>
+
+<body class="form-bg">
+    <div class="container-sm">
+        <a class="logo-hpe" href="index.html">HPE</a>
+        <div class="page-form">
+            <h2 class="page-form-title">會員註冊<br>
+                <small>親愛的夥伴您好，請輸入相關資訊以申請成為會員，謝謝。 </small></h2>
+            <div class="page-form-block">
+                <form>
+                    <div class="form-group">
+                        <label for=""><span class="necessary">*</span>姓名</label>
+                        <input type="" class="form-control" id="" placeholder="請輸入姓名" />
+                    </div>
+                    <div class="form-group">
+                        <label for=""><span class="necessary">*</span>手機號碼</label>
+                        <input type="" class="form-control" id="" placeholder="請輸入手機號碼" />
+                    </div>
+                    <div class="form-group">
+                        <label for=""><span class="necessary">*</span>公司名稱</label>
+                        <input type="" class="form-control" id="" placeholder="請輸入公司名稱" />
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label for="country">縣市</label>
+                                <select class="form-control custom-select d-block w-100" id="country" required="">
+                                    <option>台北市</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="state">鄉鎮市區</label>
+                                <select class="form-control custom-select d-block w-100" id="state" required="">
+                                    <option>中正區</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="zip">郵遞區號</label>
+                                <input type="text" class="form-control" id="zip" placeholder="" required="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="address" placeholder="詳細地址" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for=""><span class="necessary">*</span>職稱</label>
+                        <input type="" class="form-control" id="" placeholder="請輸您的職稱" />
+                    </div>
+                    <div class="form-group">
+                        <label for=""><span class="necessary">*</span>電子信箱</label>
+                        <input type="password" class="form-control" id="" placeholder="請輸入電子信箱" />
+                    </div>
+                    <div class="form-group">
+                        <label for=""><span class="necessary">*</span>帳號</label>
+                        <input type="" class="form-control" id="" placeholder="請輸入帳號" />
+                    </div>
+                    <div class="form-group">
+                        <label for=""><span class="necessary">*</span>密碼</label>
+                        <input type="" class="form-control" id="" placeholder="請輸入密碼" />
+                    </div>
+                    <div class="form-group">
+                        <label for=""><span class="necessary">*</span>確認密碼</label>
+                        <input type="" class="form-control" id="" placeholder="請再次輸入密碼" />
+                    </div>
+                    <div class="form-group google-check">
+                        <img src="images/google_check.jpg" />
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-send"  data-toggle="modal" data-target="#submitModal">
+                        註冊帳號
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer Start -->
+    <footer>
+        <p class="copyright">
+            HPE HPIS Portal
+            <br /> 客服信箱 - HPE.Service@studiowe.tw 星期一至星期五(例假日外):AM10:00~PM17:00
+            <br /> © Copyright 2019 StudioWE
+        </p>
+    </footer>
+    <!-- Modal -->
+<div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">註冊申請</h5>
+      </div>
+      <div class="modal-body">
+            <div class="modal-info">
+                謝謝您申請成為 HPIS Portal 會員，需要三個工作天，<br>審核結果將發至您的 <p class="color-text">電子信箱</p>，請留意。
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-send" data-dismiss="modal">
+                確定
+            </button>
+        </div>
+    </div>
+  </div>
+</div>
+    <!-- footer End -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/module.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" />
+    <title>HPIS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/page.css" />
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">登入失敗</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-info">
+                        密碼輸入錯誤，請重新輸入!
+                        <br />若忘記密碼，請使用系統
+                        <a href="password.html" class="link-normal">忘記密碼</a> 功能，重新取得您的密碼。
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-send" data-dismiss="modal">
+                        了解
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login start -->
+    <div class="login-bg">
+        <div class="container">
+            <div class="Login">
+                <div class="Login-left">
+                    <a href="index.html" class="Hpe-logo"></a>
+                    <p class="welcome">WELCOME</p>
+                    <p class="login-text">
+                        歡迎登入HPE
+                        <br /> 經銷夥伴學習網(HPIS Portal)
+                    </p>
+                </div>
+                <div class="Login-right">
+                    <div class="login-form-block">
+                        <p class="login-notify">請輸入您的會員帳號密碼</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="" class="form-control" id="" placeholder="帳號" />
+                            </div>
+                            <div class="form-group">
+                                <input type="" class="form-control" id="" placeholder="密碼" />
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck" />
+                                    <label class="form-check-label" for="gridCheck">記住我</label>
+                                </div>
+                                <ul class="login-menu">
+                                    <li><a href="account.html">註冊帳號</a></li>
+                                    <li><a href="password.html">忘記密碼?</a></li>
+                                </ul>
+                            </div>
+                            <div class="form-group google-check">
+                                <img src="images/google_check.jpg" />
+                            </div>
+                            <button type="button" class="btn btn-primary btn-send" data-toggle="modal" data-target="#loginModal">
+                                登入
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login end -->
+    <!-- footer Start -->
+    <footer>
+        <p class="copyright">
+            HPE HPIS Portal
+            <br /> 客服信箱 - HPE.Service@studiowe.tw 星期一至星期五(例假日外):AM10:00~PM17:00
+            <br /> © Copyright 2019 StudioWE
+        </p>
+    </footer>
+    <!-- footer End -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/module.js"></script>
+</body>
+
+</html>
